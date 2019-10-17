@@ -1,0 +1,30 @@
+.header1{
+    text-align: center;
+    color: rgb(247, 194, 22);
+    font-display: bold;
+    font: serif;
+}
+
+h2{
+    color: rgb(247, 194, 22);
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    align-items: center;
+}
+
+body{
+    background: rgb(252, 252, 252);
+}
+
+.line{
+    display: inline;
+}
+
+.line::after{
+    content:"";
+    display: block;
+}
